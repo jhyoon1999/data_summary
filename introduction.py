@@ -63,7 +63,7 @@ with tab1 :
     
     with col3 :
         st.write('생년월일 : 1994.01.18')
-        st.write('주소 : 경기도 파주시 문산읍')
+        st.write('주소 : 서울 서초구 서초대로50길')
         st.write('Email : wjdgks1999@naver.com')
         st.write('Phone : 010-2280-1999')
         st.write("GitHub : https://github.com/jhyoon1999")
