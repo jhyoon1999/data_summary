@@ -155,11 +155,11 @@ with tab2 :
     with fcol2 :
             st.text('')
             st.markdown(f'<div style="position:relative; text-align:left;">\
-                        <p style="font-weight:bold;">{"목적 : 1) 웹서비스 개발에 필요한 여행 데이터 수집 , 2) 분석 및 모델링에 부적절한 데이터 탈락/수정"}</p>\
+                        <p style="font-weight:bold;">{"목적 : 웹서비스의 기반이 되는 데이터를 수집 후, 개발에 맞게 가공/수정"}</p>\
                     </div>', unsafe_allow_html=True)
             
             
-            st.text("1) 수집 : AI-Hub의 국내 제주 여행로그 데이터")
+            st.text("1) 데이터 수집 : AI-Hub의 국내 제주 여행로그 데이터")
             # 버튼을 클릭할 때 사용할 상태 변수
             button1_clicked = False
             button2_clicked = False
@@ -210,7 +210,7 @@ with tab2 :
                     st.write("")
             
             st.text('')
-            st.text('2) 가공 : 정보가 일부만 존재하는 여행 로그, 검색되지 않는 관광지 탈락/수정')
+            st.text('2) 데이터 가공 : 정보가 일부만 존재하는 여행 로그, 검색되지 않는 관광지 탈락/수정')
             st.image('src/travel_recommend/preprocessing.png', use_column_width=True)
             
     st.markdown('<hr style="border: 0.5px solid orange; margin: 20px 0;">', unsafe_allow_html=True)
@@ -226,11 +226,11 @@ with tab2 :
     with scol2 :
             st.text('')
             st.markdown(f'<div style="position:relative; text-align:left;">\
-                        <p style="font-weight:bold;">{"목적 : 1) 핵심변수 추출(Variable Importance) , 2) 클러스터링 기반 Feature Engineering"}</p>\
+                        <p style="font-weight:bold;">{"목적 : 추천시스템의 성능을 향상시킬 수 있는 파생변수 생성"}</p>\
                     </div>', unsafe_allow_html=True)
             
             st.markdown("""
-                        1) 핵심변수 추출 : 여행객의 방문 만족도를 설명하는 핵심변수 추출
+                        1) 핵심변수 추출 : 여행객의 방문 만족도를 설명하는 핵심변수(Variable Importance) 식별
                             - 사용 알고리즘 : CatBoost
                             - 예측 대상 : 방문 만족도(1점 ~ 5점)
                         """)

@@ -101,7 +101,7 @@ with tab2 :
     with fcol2 :
             st.text('')
             st.markdown(f'<div style="position:relative; text-align:left;">\
-                        <p style="font-weight:bold;">{"목적 :1) 데이터 수집, 2) 기업 건전성 지표 생성"}</p>\
+                        <p style="font-weight:bold;">{"목적 : 국내 의류산업 기업 데이터 수집 후, 분석을 위한 지표 생성"}</p>\
                     </div>', unsafe_allow_html=True)
             st.text('')
             st.markdown("""
@@ -152,7 +152,7 @@ with tab2 :
     with tcol2 :
             st.text('')
             st.markdown(f'<div style="position:relative; text-align:left;">\
-                        <p style="font-weight:bold;">{"목적 :1) 핵심변수 식별, 2) 인사이트 도출"}</p>\
+                        <p style="font-weight:bold;">{"목적 : COVID-19 사태 전/후 국내 의류산업 기업의 건전성 지표 변동에 대한 인사이트 도출"}</p>\
                     </div>', unsafe_allow_html=True)
             st.text('')
             st.markdown("""

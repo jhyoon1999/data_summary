@@ -130,14 +130,15 @@ with tab2 :
     with scol2 :
             st.text('')
             st.markdown(f'<div style="position:relative; text-align:left;">\
-                        <p style="font-weight:bold;">{"목적 : 1)선정 프로젝트 수집, 2)수집 데이터 관리 대시보드 운영"}</p>\
+                        <p style="font-weight:bold;">{"목적 : 선정한 프로젝트의 데이터를 수집한 후, 학습 가능한 구조로 변환 및 검수"}</p>\
                     </div>', unsafe_allow_html=True)
             st.text('')
-            st.text('1)선정 프로젝트 수집 : 선정 프로젝트의 로컬 데이터를 수집 후, Python Script를 이용해 학습 가능한 구조 변환 및 검수 진행')
+            st.markdown('1) 선정 프로젝트 수집 : 선정 프로젝트의 로컬 데이터를 수집 후, Python Script를 이용해 학습 가능한 구조 변환 및 검수 진행')
             st.text('')
             st.markdown("""
-                        2)수집 데이터 관리 대시보드 운영 : 실시간 수집 현황을 확인할 수 있는 대시보드 개발 및 운영
-                        - 사용 툴: Power BI
+                        2) 수집 데이터 관리 대시보드 운영 : 실시간 수집 현황을 확인할 수 있는 대시보드 개발 및 운영
+                            - 사용 툴: Power BI
+                            
                         """)
             st.image('src/qualitative_AI/powerbi_process.png', use_column_width=True)
             
@@ -158,7 +159,7 @@ with tab2 :
                         <p style="font-weight:bold;">{"목적 : 각 도메인 별로 학습 가능한 수준의 통합 라벨 체계 구축"}</p>\
                     </div>', unsafe_allow_html=True)
             st.text('')
-            st.text('1)각 프로젝트 별 독자적인 라벨 체계 존재 → 타부서와의 협력을 통해 각 도메인 별 통합 라벨 체계 구축')
+            st.markdown('1) 라벨 체계 구축 : 각 프로젝트 별 독자적인 라벨 체계 존재 → 타부서 및 공급기업과의 협력을 통해 각 도메인 별 통합 라벨 체계 구축')
             add_col1, add_col2 = st.columns([4,6])
             with add_col1 : 
                 st.image('src/qualitative_AI/label_process.png', use_column_width=True)
