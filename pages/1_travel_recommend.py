@@ -4,12 +4,6 @@ import pandas as pd
 
 add_page_title(layout = "wide")
 
-# 사이드바에 추가할 이미지 파일의 경로
-image_path = 'src/introduction/company_logo.png'
-
-# 사이드바에 이미지 추가
-st.sidebar.image(image_path, use_column_width=True)
-
 tab1, tab2, tab3 = st.tabs(["요약", "프로젝트 진행", "코드"])
 
 #%% 1. 요약

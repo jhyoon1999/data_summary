@@ -2,11 +2,6 @@ import streamlit as st
 from st_pages import Page, Section, add_page_title, show_pages
 
 #%%0. 페이지 설정
-# 사이드바에 추가할 이미지 파일의 경로
-image_path = 'src/introduction/company_logo.png'
-
-# 사이드바에 이미지 추가
-st.sidebar.image(image_path, use_column_width=True)
 
 show_pages(
     [
